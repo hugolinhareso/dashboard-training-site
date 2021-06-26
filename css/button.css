@@ -1,0 +1,39 @@
+.button {
+    display: flex;
+    height: 35px;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0 10px;
+    border: 1px inset rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    transition: color filter border 200ms;
+    will-change: color filter border;
+}
+
+.button.secondary:hover {
+    color: #3751FF;
+    filter: drop-shadow(0px 0px 5px rgba(32, 29, 153, 0.25));
+    border: 1px inset #3751FF;
+    font-weight: 500;
+}
+
+.button.secondary:active{
+    filter: unset;
+    border: 1px solid rgba(55, 81, 255, 0.5);
+}
+
+.button.primary{
+    background-color: #3751FF;
+    color: #FFFFFF;
+}
+
+.button.primary:hover{
+    font-weight: 500;
+    filter: drop-shadow(0px 0px 5px rgba(32, 29, 153, 0.5));
+}
+
+.button.primary:active{
+    filter: unset;
+}

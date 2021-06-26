@@ -1,0 +1,60 @@
+.charts-wrapper {
+    width: calc(100% - 60px);
+    height: calc(100vh - 115px);
+    overflow: auto;
+    margin-top: 55px;
+    padding: 30px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.indicators-wrapper {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.indicator-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex: 1;
+    height: 134px;
+    background-color: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.indicator-button:hover{
+    border: 1px solid #3751FF;
+}
+
+.indicator-button:active{
+    background: linear-gradient(0deg, rgba(55, 81, 255, 0.05), rgba(55, 81, 255, 0.05)), #FFFFFF;
+}
+
+.indicator-button-label {
+    color: #9FA2B4;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.indicator-button:hover .indicator-button-label{
+    color: #3751FF;
+}
+
+.indicator-button-value{
+    font-size: 40px;
+    font-weight: bold;
+    color: #252733;
+}
+
+.indicator-button:hover .indicator-button-value{
+    color: #3751FF;
+}

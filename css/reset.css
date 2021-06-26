@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+li {
+    display: unset;
+    text-align: unset;
+}
+
+::marker {
+    unicode-bidi: unset;
+    font-variant-numeric: unset;
+    text-transform: unset;
+    text-indent: unset;
+    text-align: unset;
+    text-align-last: unset;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+  
+*::-webkit-scrollbar-track {
+    background: #edebeb;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #3751FF;
+    border-radius: 20px;
+    border: 3px solid #edebeb;
+}
