@@ -1,17 +1,25 @@
-# Dashboard-Training-Site
+# dashboard-training-site
 
-Dashboard desenvolvido em Coding Dojo para aplicar os principais conceitos de HTML e CSS, sobretudo flex-box. Construimos um protótipo no Figma e o usamos como guia visual para o desenvolvimento do site.
+Dashboard developed in Coding Dojo to apply the main HTML and CSS concepts, especially flex-box. We built a prototype in Figma and used it as a visual guide for the site development.
+
+## 🚀 Usage
+
+Just open the file `index.html` in your browser.
 
 ## 💻 Preview
-Veja um preview do site: [acesse aqui](https://naughty-benz-bc9e48.netlify.app/)
 
-## 🛠️ Construído com
+See how the final result looks like: [click here](https://naughty-benz-bc9e48.netlify.app/)
 
-* HTML
-* CSS
+## 🧑‍💻 Authors
 
-## ✒️ Autores
+**Hugo Linhares**
 
-* **Hugo Linhares** - [GitHub](https://github.com/hugolinhareso/)
-* **Lucas Ramos** - [GitHub](https://github.com/Ram0s-bit)
-* **Eduardo Pinheiro** - [GitHub](https://github.com/eduardo-pinheiro)
+- Github: [@hugolinhareso](https://github.com/hugolinhareso)
+
+**Lucas Ramos**
+
+- Github: [@Ram0s-bit](https://github.com/Ram0s-bit)
+
+**Eduardo Pinheiro**
+
+- Github: [@eduardo-pinheiro](https://github.com/eduardo-pinheiro)
